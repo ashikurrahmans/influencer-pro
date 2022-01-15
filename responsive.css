@@ -1,0 +1,12 @@
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+  .prebook {
+    flex-direction: column;
+  }
+
+  .company-image-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
