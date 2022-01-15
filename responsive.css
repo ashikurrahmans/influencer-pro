@@ -1,0 +1,44 @@
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 90%;
+  }
+
+  .prebook-content h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .prebook-image img {
+    padding-top: 30px;
+  }
+
+  .prebook {
+    flex-direction: column;
+  }
+  .prebook-content a {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .form-area form input[type="email"] {
+    font-size: 18px;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .footer-content h2 {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .newsletter-content p {
+    width: 100%;
+  }
+  .newsletter-content p {
+    width: 90%;
+  }
+  .influencer-image {
+    display: none;
+  }
+}
