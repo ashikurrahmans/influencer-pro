@@ -19,6 +19,10 @@
   .products {
     grid-template-columns: repeat(a, 2fr);
   }
+  
+  .influencer-image {
+    display: none;
+  }
   .footer-content {
     width: 100%;
   }
