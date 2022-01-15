@@ -1,12 +1,29 @@
 @media only screen and (max-width: 688px) {
   .container {
-    width: 100%;
+    width: 90%;
+  }
+  .prebook-content h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .prebook-image img {
+    padding-top: 30px;
   }
   .prebook {
     flex-direction: column;
   }
-
-  .company-image-area {
-    grid-template-columns: repeat(2, 1fr);
+  .prebook-content a {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .products {
+    grid-template-columns: repeat(a, 2fr);
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .footer-content h2 {
+    font-size: 15px;
+    width: 100%;
   }
 }
