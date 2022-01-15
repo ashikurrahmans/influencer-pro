@@ -117,9 +117,8 @@ nav ul li a {
   row-gap: 40px;
 }
 .product {
-  border: 1px solid #bfbfbf;
   background-color: white;
-  box-shadow: 2px 2px 5px #aaaaaa;
+  box-shadow: 1px 1px 5px #c5bfbf;
   border-radius: 3px;
   padding: 10px 10px 10px 15px;
 }
@@ -129,7 +128,18 @@ nav ul li a {
   border-radius: 5px;
   text-align: center;
 }
-.product-review i {
+.product-title h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.product-price h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+.review-icon i {
   color: #fb8200;
   font-size: 14px;
 }
@@ -140,5 +150,85 @@ nav ul li a {
 }
 .facilities li {
   list-style: none;
+  font-size: 14px;
+  letter-spacing: 0.3px;
 }
 /* Product Area End */
+
+/* News Letter Area Start */
+.signup-area {
+  background-color: #f9f9f9;
+}
+.influencer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.newsletter {
+  margin-top: 25px;
+}
+.newsletter h3 {
+  font-size: 26px;
+  color: #212529;
+}
+.newsletter p {
+  margin-bottom: 10px;
+}
+.form-area form input[type="email"] {
+  font-size: 26px;
+}
+button {
+  color: #fff;
+  background-color: #e02c6d;
+  padding: 12px 14px 12px 14px;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+::placeholder {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.influencer-image {
+  margin-left: 100px;
+}
+/* News Letter Area End */
+
+/* Footer Area Start  */
+.footer-area {
+  background-color: #000;
+}
+.footer-content {
+  width: 30%;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 1px;
+}
+.footer-content h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.social-icons ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.social-icons li {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-align: center;
+  font-size: 19px;
+}
+/* Footer Area End */
